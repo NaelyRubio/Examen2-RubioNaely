@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/crema_claro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="32dp"
+        android:gravity="center_horizontal">
+
+        <!-- Título -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nuevo contacto"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/texto_principal"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Nombre -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:textStyle="bold"
+            android:textColor="@color/texto_principal" />
+        <EditText
+            android:id="@+id/etNombre"
+            style="@style/CampoFormulario" />
+
+        <!-- Apellido -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apellidos"
+            android:textStyle="bold"
+            android:textColor="@color/texto_principal" />
+        <EditText
+            android:id="@+id/etApellido"
+            style="@style/CampoFormulario" />
+
+        <!-- Compañía de trabajo -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Compañía"
+            android:textStyle="bold"
+            android:textColor="@color/texto_principal" />
+        <EditText
+            android:id="@+id/etCompania"
+            style="@style/CampoFormulario" />
+
+        <!-- Telefono del contacto -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Teléfono"
+            android:textStyle="bold"
+            android:textColor="@color/texto_principal" />
+        <EditText
+            android:id="@+id/etTelefono"
+            style="@style/CampoFormulario"
+            android:inputType="phone" />
+
+        <!-- correo del contacto -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="E-Mail"
+            android:textStyle="bold"
+            android:textColor="@color/texto_principal" />
+        <EditText
+            android:id="@+id/etCorreo"
+            style="@style/CampoFormulario"
+            android:inputType="textEmailAddress" />
+
+        <!-- Boton de guardar -->
+        <Button
+            android:id="@+id/btnGuardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guardar"
+            android:layout_marginTop="40dp"
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp"
+            android:backgroundTint="@color/aqua_profundo"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</ScrollView>

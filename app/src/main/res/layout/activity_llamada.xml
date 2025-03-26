@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/crema_claro"
+    android:gravity="center"
+    android:padding="32dp">
+
+    <TextView
+        android:id="@+id/txtLlamando"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Llamando..."
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/texto_principal"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/btnColgar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Colgar"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/aqua_profundo"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp" />
+</LinearLayout>

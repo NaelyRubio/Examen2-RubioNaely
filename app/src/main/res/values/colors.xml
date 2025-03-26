@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="aqua_profundo">#0097A7</color>
+    <color name="aqua_claro">#4DD0E1</color>
+    <color name="crema_claro">#FFFDE7</color>
+    <color name="crema_neutro">#FFF8E1</color>
+    <color name="texto_principal">#424242</color>
+    <color name="texto_secundario">#757575</color>
+    <color name="black">#FF000000</color>
+</resources>
